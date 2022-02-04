@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<title>DigiLib LM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Shiino Martinez">
+<meta name="keywords" content="digilib, e-books, ebook, library, education">
+<meta name='date' content='February 4, 2022'>
+<meta property="og:site_name" content="Digital Library Webpage">
+<link rel="shortcut icon" type="image/jpeg" href="images/profile.PNG">
+<link rel="icon" type="image/jpeg" href="images/profile.PNG">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Tangerine:wght@700&display=swap"
+    rel="stylesheet">
+
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    body {
+        color: #777;
+        line-height: 1.8;
+        margin: 0 auto;
+    }
+
+    p{
+        font-family: Dongle, Arial, Helvetica, sans-serif;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        letter-spacing: 5px;
+        font-family: "Lato", sans-serif;
+    }
+
+    ul.nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(247, 247, 247);
+        position: sticky;
+        box-shadow: 5px 1px 15px #888888;
+    }
+
+    ul.nav-bar li {
+        float: left;
+    }
+
+    ul.nav-bar li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    ul.nav-bar li a:hover:not(.active) {
+        background-color: #ddd;
+    }
+
+    ul.nav-bar li a.active {
+        background-color: #ddd;
+    }
+
+    ul.nav-bar li.right {
+        float: right;
+    }
+
+    @media screen and (max-width: 600px) {
+
+        ul.nav-bar li.right,
+        ul.nav-bar li {
+            float: none;
+        }
+    }
+
+    #header-img {
+        text-align: center;
+
+    }
+
+    .right-align {
+        margin: 40px;
+    }
+
+    button {
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        font-family: 'Parisienne', cursive;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+    }
+
+    .grid-container>div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    #menu, #contact, #about{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+
+</style>
+
+<body>
+
+    <ul class="nav-bar">
+        <li><a href="#">DigiLib</a></li>
+        <li class="right"><a href="#menu">List</a></li>
+        <li class="right"><a href="#contact">Contact</a></li>
+        <li class="right"><a href="#about">About</a></li>
+        <li class="right"><a class="active" href="#home">Home</a></li>
+    </ul>
+
+    <header id="header-img" style="max-width:1600px;min-width:500px">
+        <img src="images/header.PNG" alt="DigiLib" width="1000px" height="500px">
+        <div>
+            <h1>DigLib - Learning Materials</h1>
+            <hr>
+        </div>
+    </header>
+
+    <div style="max-width:1100px">
+
+        <div id="about">
+            <div>
+                <h1>About Us</h1><br>
+                <h5>The Web Compilers</h5>
+                <p>DigiLib includes high-quality and affordable compilation of books in
+                    pdf format. No need to stress yourself of searching countless
+                    of websites when you can just afford our service for cheap price.
+                   Feel free to message us for inquiries.</p>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="menu">
+            <div>
+                <h1>Popular Topics</h1><br>
+                <h4>Mathematics</h4>
+                <p>Includes aspects of basic and advanced mathematics, mathematical statements, integrals, general concepts.</p><br>
+
+                <h4>Languages</h4>
+                <p>English, spanish, german, arabic, chinese, japanese and more.</p><br>
+
+                <h4>Engineering</h4>
+                <p>There are  various disciplines of engineering, most common are civil, electrical, mechanical, computer, and aeronotical.</p><br>
+
+                <h4>Music</h4>
+                <p>Yes, you can learn music by reading and together with practice</p><br>
+
+                <h4>Reviewers</h4>
+                <p>Whether for exams, scholarship, college entrance exam, and such</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="contact">
+            <center>
+                <h3>CONTACT ME</h3>
+                <p><em>I'd love to hear your feedback!</em></p>
+
+                <div>
+                    <div class="right-align">
+                        <div>
+                            <i class="fa fa-map-marker fa-fw"></i> Davao, Philippines<br>
+                            <i class="fa fa-phone fa-fw"></i> Phone: +639 273984745<br>
+                            <i class="fa fa-envelope fa-fw"></i> Email: <a href="/cdn-cgi/l/email-protection"
+                                class="__cf_email__"
+                                data-cfemail="48252921240825292124662b2725">[email&#160;protected]</a><br>
+                        </div>
+                        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+
+                        <form action="/action_page.php" target="_blank">
+                            <div style="margin:0 -16px 8px -16px">
+                                <div>
+                                    <input type="text" placeholder="Name" required name="Name">
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="Email" required name="Email">
+                                </div>
+                            </div>
+                            <input type="text" placeholder="Message" required name="Message">
+                            <br>
+                            <button type="submit">
+                                <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                            </button>
+                        </form>
+
+                    </div>
+                    <div style="text-align:center;">
+                        <i class="fa fa-facebook-official"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-snapchat"></i>
+                        <i class="fa fa-pinterest-p"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                </div>
+            </center>
+<br>
+<hr>
+            <footer>
+                <p align="center">Copyright 2022</p>
+            </footer>
+
+
+</html>
